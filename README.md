@@ -1,8 +1,8 @@
 # Filogenomica_clase
 Aquí explicare los pasos que realizamos en clase y analizaré los arboles que obtuvimos
 
-##Pasos de lo que realizamos en clase
-1.	Primero entramos al cluster, a nuestras carpetas y creamos una carpeta para la clase y clonamos el repositorio con gitclone 
+## Pasos de lo que realizamos en clase
+1. Primero entramos al cluster, a nuestras carpetas y creamos una carpeta para la clase y clonamos el repositorio con gitclone 
 Gitclone link del repositorio y descomprimimos las carpetas con unzip
 2.	abrimos salloc
 3.	Activamos el ambiente con: conda activate biopt
