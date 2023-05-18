@@ -5,7 +5,7 @@ Aquí explicare los pasos que realizamos en clase y analizaré los arboles que o
 1. Primero entramos al cluster, a nuestras carpetas y creamos una carpeta para la clase y clonamos el repositorio con gitclone 
 Gitclone link del repositorio y descomprimimos las carpetas con unzip
 2.	abrimos salloc
-3.	Activamos el ambiente con: conda activate biopt
+3.	Activamos el ambiente con: ```conda activate biopt```
 4.	Después de eso encontramos a los ortólogos con: orthofinder -os -M msa -S blast -f vertebrate_proteomes
 5.	Cambiamos el nombre de las especies con for f in *fa; do sed -E 's/_GENE.+//g' $f > out; mv out $f; done, todo esto dentro del archivo Orthogroup_Sequences que se encontraba en la carpeta Orthogroups
 6.	Posteriormente hacemos un filtraje de calidad con for f in *fa; do prequal $f ; done. Dentro del archivo Orthogroup_Sequences. Todo esto con el fin de mejorar la calidad de nuestros resultados.
