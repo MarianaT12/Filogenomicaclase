@@ -30,3 +30,8 @@ Posteriormente, colocamos los arboles en un mismo archivo
 12.	Corrimos ASTRAL 
 ```java -jar /home/bio.pt/data/Astral/astral.5.7.8.jar -i my_gene_trees.tre -o species_tree_ASTRAL.tre 2> out.log```
 13.	Para visualizar los arboles movimos los archivos al computador y los abrimos con FigTree.
+
+## Resultados
+# Partitioned tree
+# Unpartitioned tree
+# ASTRAL tree
