@@ -32,6 +32,6 @@ Posteriormente, colocamos los arboles en un mismo archivo
 13.	Para visualizar los arboles movimos los archivos al computador y los abrimos con FigTree.
 
 ## Resultados
-# Partitioned tree
-# Unpartitioned tree
-# ASTRAL tree
+### Partitioned tree
+### Unpartitioned tree
+### ASTRAL tree
